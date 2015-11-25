@@ -154,7 +154,8 @@ li.mega-menu{
 
 /* Set Navbar Background-color Light */
 .navbar.navbar-bg-light{
-	background-color: #fff;
+	background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 .navbar.navbar-bg-light .navbar-nav > li > a{
 	color: #222;
