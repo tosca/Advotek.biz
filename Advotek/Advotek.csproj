@@ -321,6 +321,9 @@
     <Content Include="img\prettyPhoto\light_square\loader.gif" />
     <Content Include="img\prettyPhoto\light_square\sprite.png" />
     <Content Include="img\advotekLogo02.png" />
+    <Content Include="img\sections\about\about-1.jpg" />
+    <Content Include="img\sections\about\about-2.jpg" />
+    <Content Include="img\sections\about\about-3.jpg" />
     <Content Include="img\sections\bg\book.jpg" />
     <Content Include="img\sections\grid\1.jpg" />
     <Content Include="img\sections\grid\3.jpg" />
@@ -354,6 +357,9 @@
     <Content Include="img\sections\slider\slider44-bg.jpg" />
     <Content Include="img\sections\slider\slider46-bg.jpg" />
     <Content Include="img\sections\slider\slider47-bg.jpg" />
+    <Content Include="img\sections\slider\swosh-logos.png" />
+    <Content Include="img\sections\slider\swosh3.png" />
+    <Content Include="img\sections\slider\swosh4.png" />
     <Content Include="img\up.png" />
     <Content Include="js\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -457,7 +463,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="img\large\" />
-    <Folder Include="img\sections\about\" />
     <Folder Include="img\sections\clients\" />
     <Folder Include="img\sections\email\" />
     <Folder Include="img\sections\services\" />
