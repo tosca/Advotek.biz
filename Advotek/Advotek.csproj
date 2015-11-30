@@ -284,6 +284,7 @@
     <Content Include="img\blank.gif" />
     <Content Include="img\comment-link.png" />
     <Content Include="img\down.png" />
+    <Content Include="img\hp-supplies-medallion.gif" />
     <Content Include="img\jslider.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\map-marker.png" />
@@ -453,7 +454,7 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\HPprinters.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
