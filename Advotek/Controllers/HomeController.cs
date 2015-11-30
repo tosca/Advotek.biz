@@ -23,6 +23,16 @@ namespace Advotek.Controllers
             return View();
         }
 
+        public ActionResult HPprinterFinder()
+        {
+            return View();
+        }
+
+        public ActionResult HPsuppliesFinder()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
             return View();

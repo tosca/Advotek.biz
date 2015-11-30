@@ -45,9 +45,22 @@ namespace Advotek
 
             routes.MapRoute(
               name: "HPproducts",
-              url: "Hpproducts",
+              url: "HPproducts",
               defaults: new { controller = "Home", action = "HPproducts", id = UrlParameter.Optional }
           );
+
+            routes.MapRoute(
+             name: "HPprinterFinder",
+             url: "HPprinterFinder",
+             defaults: new { controller = "Home", action = "HPprinterFinder", id = UrlParameter.Optional }
+         );
+
+            routes.MapRoute(
+             name: "HPsuppliesFinder",
+             url: "HPsuppliesFinder",
+             defaults: new { controller = "Home", action = "HPsuppliesFinder", id = UrlParameter.Optional }
+         );
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
