@@ -321,6 +321,7 @@
     <Content Include="img\prettyPhoto\light_square\loader.gif" />
     <Content Include="img\prettyPhoto\light_square\sprite.png" />
     <Content Include="img\advotekLogo02.png" />
+    <Content Include="img\sections\about\280x440.jpg" />
     <Content Include="img\sections\about\about-1.jpg" />
     <Content Include="img\sections\about\about-2.jpg" />
     <Content Include="img\sections\about\about-3.jpg" />
