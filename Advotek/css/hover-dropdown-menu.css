@@ -194,8 +194,12 @@ li.mega-menu{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.top-contact{
+.top-contact-left{
 	float: left;
+	text-align: center;
+}
+.top-contact-right{
+	float: right;
 	text-align: center;
 }
 .top-social-icon{
@@ -570,7 +574,7 @@ li.search-dropdown a {
 	padding-right: 10px;
 }
 .top-bar-section.top-bar-bg-color.shop-top-bar .navbar-nav > li > ul.dropdown-menu li a{
-	color: #222;
+	color: #5796be;
 	text-transform: uppercase;
 	font-size: 12px;
 	padding: 0 0 0 5px;
@@ -580,7 +584,11 @@ li.search-dropdown a {
 }
 .top-bar-section.shop-top-bar a{
 	line-height: 35px;
+
 	vertical-align: middle;
+}
+.top-bar-section.top-bar-bg-color a:hover{
+    color:rgba(0, 0, 0, 0.5);
 }
 /* 
 /* Simple Header */

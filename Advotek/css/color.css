@@ -48,6 +48,10 @@ header .nav .open > a.highlighted,
 	color: #ffc400;
     color: #01236e; /*midnightblue*/
 }
+.top-bar-link-hover-color a:hover {
+    color:#f7f7f7;
+}
+
 
 /* ============================
 
@@ -132,19 +136,19 @@ div.count-number:before,
 .btn-transparent-color:hover,
 .btn-transparent-color-inverse
 {
-	border-color: #ffc400;
+	border-color: #22205f;
 }
 
 .bottom-arrow:before{
-	border-top-color: #ffc400;
+	border-top-color: #22205f;
 }
 .rightGrip, 
 .leftGrip{
-	border-bottom: 10px solid #ffc400 !important;
+	border-bottom: 10px solid ##22205f !important;
 }
 
 .blog.timeliner >li:hover  .timeline-panel:before{
-  border-left-color: #ffc400;  
+  border-left-color: #22205f;  
 }
 .blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before{
   border-right-color: #ffc400;
@@ -180,7 +184,7 @@ div.count-number:before,
 @media (min-width: 992px) { 
 
 	.navbar-bg-color{
-		background-color: #ffc400;
+		background-color: #22205f;
 	}
 
 }
@@ -197,14 +201,14 @@ div.count-number:before,
 /* Content Select In Browser */
 
 ::-moz-selection {
-    background: #ffc400;
+    background: #22205f;
     color: #000000;
     text-shadow: none;
 }
 
 ::selection {
-    background: #ffc400;
-    color: #a4003a;
+    background: #22205f;
+    color: #f2f2f2;
     text-shadow: none;
 }
 

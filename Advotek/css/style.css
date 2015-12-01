@@ -6135,5 +6135,8 @@ ul.tags li{
 .bg-hover-gray:hover{
 	background-color:rgba(0,0,0,.6);
 }
+.dropdown-menu:hover{
+    display:block;
+}
 
 
