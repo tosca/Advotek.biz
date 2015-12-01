@@ -48,7 +48,8 @@ header .nav .open > a.highlighted,
 	color: #ffc400;
     color: #01236e; /*midnightblue*/
 }
-.top-bar-link-hover-color a:hover {
+.top-bar-link-hover-color a:hover,
+.link-hover-color a:hover {
     color:#f7f7f7;
 }
 
