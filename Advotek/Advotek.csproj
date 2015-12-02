@@ -326,6 +326,9 @@
     <Content Include="img\sections\about\about-1.jpg" />
     <Content Include="img\sections\about\about-2.jpg" />
     <Content Include="img\sections\about\about-3.jpg" />
+    <Content Include="img\sections\about\about-7.jpg" />
+    <Content Include="img\sections\about\about-8.jpg" />
+    <Content Include="img\sections\about\about-9.jpg" />
     <Content Include="img\sections\bg\book.jpg" />
     <Content Include="img\sections\grid\1.jpg" />
     <Content Include="img\sections\grid\3.jpg" />
