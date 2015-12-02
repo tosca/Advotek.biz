@@ -1352,6 +1352,9 @@ textarea.form-control.height-82{
 .hp-bg{
 	background: #1c61a4;
 }
+.color-bg {
+    background:#01236e;
+}
 .white-bg{
 	background: #ffffff;
 }
@@ -6137,6 +6140,9 @@ ul.tags li{
 }
 .dropdown-menu:hover{
     display:block;
+}
+#services .item-box {
+    margin-bottom:10px;
 }
 
 

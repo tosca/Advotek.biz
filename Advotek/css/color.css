@@ -145,7 +145,7 @@ div.count-number:before,
 }
 .rightGrip, 
 .leftGrip{
-	border-bottom: 10px solid ##22205f !important;
+	border-bottom: 10px solid #22205f !important;
 }
 
 .blog.timeliner >li:hover  .timeline-panel:before{
@@ -166,7 +166,8 @@ div.count-number:before,
 .top-up .nav-tabs > li.active > a:after, 
 .top-up  .nav-tabs > li.active > a:focus:after, 
 .top-up .nav-tabs > li.active > a:hover:after{
-    border-color: #ffc400 transparent transparent;
+    border-color: #f7f7f7 transparent transparent;
+    color:#f7f7f7;
 }
 
 /******************************************************************************
