@@ -466,7 +466,21 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\HPprinterFinder.cshtml" />
     <Content Include="Views\Home\HPsuppliesFinder.cshtml" />
-    <Content Include="Views\Home\HPproducts.cshtml" />
+    <Content Include="Views\Home\HPhelpdesk.cshtml" />
+    <Content Include="Views\Home\HPimagePrintPromo.cshtml" />
+    <Content Include="Views\Home\HPeliteBookFamily.cshtml" />
+    <Content Include="Views\Home\HPworkstationFamily.cshtml" />
+    <Content Include="Views\Home\HPofficeProFamily.cshtml" />
+    <Content Include="Views\Home\HPscanJetScanners.cshtml" />
+    <Content Include="Views\Home\originalHPsupplies.cshtml" />
+    <Content Include="Views\Home\HPPrintImageCarePack.cshtml" />
+    <Content Include="Views\Home\HPenterpriseGroup.cshtml" />
+    <Content Include="Views\Home\HPproFamily.cshtml" />
+    <Content Include="Views\Home\HPbusinessUpgradeTool.cshtml" />
+    <Content Include="Views\Home\HPPCupgradetool.cshtml" />
+    <Content Include="Views\Home\HPmobility.cshtml" />
+    <Content Include="Views\Home\HPK12Education.cshtml" />
+    <Content Include="Views\Home\HPwindows10.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
