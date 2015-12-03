@@ -45,15 +45,19 @@ header .nav .open > a.highlighted,
 .btn-transparent-color,
 .btn-transparent-color-inverse:hover
 {
-	color: #ffc400;
     color: #01236e; /*midnightblue*/
+    color:#808080; /*gray*/
 }
-.top-bar-link-hover-color a:hover,
+.top-bar.link-hover-color a:hover,
 .link-hover-color a:hover {
-    color:#f7f7f7;
+    color:#808080; /*gray*/
 }
-
-
+.navbar.navbar-bg-light .navbar-nav > li > a {
+   color: #01236e; /*midnightblue*/
+}
+.navbar.navbar-bg-light .navbar-nav > li > a:hover {
+    color:#808080; /*gray*/
+}
 /* ============================
 
 

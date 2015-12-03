@@ -219,6 +219,7 @@ li.mega-menu{
 }
 .top-bar-section.top-bar-bg-color a:hover{
 	color: rgba(0, 0, 0, 0.176);
+    color: #1c61a4;
 }
 /* Top Bar Light */
 .top-bar-section.top-bar-bg-light{
@@ -589,6 +590,7 @@ li.search-dropdown a {
 }
 .top-bar-section.top-bar-bg-color a:hover{
     color:rgba(0, 0, 0, 0.5);
+    color:rgba(255, 255, 255, 0.70) /*tosca*/
 }
 /* 
 /* Simple Header */

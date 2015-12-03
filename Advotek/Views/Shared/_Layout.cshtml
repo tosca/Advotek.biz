@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>@ViewBag.Title - Advotek - Managed IT Services</title>
         <meta name="keywords" content="Advotek, Managed IT Services, Computer Consulting, Server Technology Installation" />
-        <meta name="description" content="Advotek is a managed IT services computer consulting company servicing Chicago medium businesses and Chicago Public Schools" />
+        <meta name="description" content="Business Information Technology - Source - Support -Managed Services for Chicago businesses and Chicago Public Schools" />
         <meta name="author" content="tosca ragnini" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="~/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -39,8 +39,7 @@
                         <a href="mailto:zack@advotek.biz" class="lr-pad-20">
                             <i class="fa fa-envelope"></i> zack@advotek.biz
                         </a>
-                        <a href="HPsuppliesFinder" class="lr-pad-20">HP Supplies</a>
-                        <a href="HPprinterFinder" class="lr-pad-20">HP Printer Finder</a>
+                        <a href="~/HPsuppliesFinder" class="lr-pad-30">HP Supplies Finder</a>
                     </div>
                 </div>
             </div>
@@ -66,30 +65,83 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="mega-menu">
-                                        <a href="Index#home">Home</a>
+                                    <li>
+                                        <a href="~/Index#home">Home</a>
                                     </li>
                                     <li>
-                                        <a href="Index#about">Our Story</a>
+                                        <a href="~/Index#about">Our Story</a>
                                     </li>
                                     <li>
-                                        <a href="Index#services">Managed Services</a>
+                                        <a href="~/Index#services">Managed Services</a>
                                     </li>
-                                    <!--<li>
-                                        <a href="#clients">Case StudiesSolutions</a>
+                                <!--    <li>
+                                        <a href="~/Index#clients">Client Solutions</a>
                                     </li>-->
                                     <li>
-                                        <a href="Index#contact">Contact</a>
+                                        <a href="~/Index#contact">Contact</a>
+                                        
                                     </li>
-                                  <!--  <li>
-                                        <a href="HPprinters">HP Printers</a>
-                                     </li>  -->
+                                    <li>
+                                        <a data-toggle="collapse" href="#">HP Products</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="~/HPprinterFinder">HP Printer Finder</a>
+                                            </li>
+                                             <li>
+                                                <a href="~/HPbusinessUpgradeTool">HP Business Upgrade Tool</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPK12Education">HP K12 Education</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPeliteBookFamily">HP EliteBook Family</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPenterpriseGroup">HP Enterprise Group</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPhelpdesk">HP helpdesk</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPimagePrintPromo">HPimage Print Promo</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPmobility">HP Mobility</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPofficeProFamily">HP OfficePro Family</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPPCupgradetool">HP PC Upgrade Tool</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPPrintImageCarePack">HP Print Image CarePack</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPproFamily">HP Pro Family"</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPscanJetScanners">HP ScanJet Scanners</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPwindows10">HP Windows10</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/HPworkstationFamily">HP Workstation Family</a>
+                                            </li>
+                                            <li>
+                                                <a href="~/originalHPsupplies">Original HP Supplies</a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </li>
+                                    
                                     
                                     <li>
                                         <img src="img/hp-supplies-medallion.gif" width="170" height="66" alt="HP Qualified Supplies Partner" />
                                     </li>
                                 </ul>
-                            </div>
+</div>
                         </div>
                     </div>
                 </div>
@@ -112,6 +164,7 @@
         <script type="text/javascript" src="~/js/jquery.min.js"></script>
         <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="~/js/hover-dropdown-menu.js"></script>
+        <script type="text/javascript" src="~/js/jquery.hover-dropdown-menu-addon.js"></script>
         <script type="text/javascript" src="~/js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="~/js/jquery.sticky.js"></script>
         <script type="text/javascript" src="~/js/bootstrapValidator.min.js"></script>
@@ -122,7 +175,15 @@
         <script type="text/javascript" src="~/js/jquery.parallax-1.1.3.js"></script>
         <script type="text/javascript" src="~/js/fancySelect.js"></script>
         <script type="text/javascript" src="~/js/custom.js"></script>
+ 
     <script type="text/javascript">
+    $(document).on('click.nav', '.navbar-collapse.in', function (e) {
+        if ($(e.target).is('a')) {
+            $(this).removeClass('in').addClass('collapse');
+        }
+    });
+    </script>
+    <!--  <script type="text/javascript">
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37325944-1']);
@@ -133,7 +194,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-    </script>
+    </script>--> 
 
         <!--Scripts.Render("~/bundles/jquery")-->
         @RenderSection("scripts", required: false)
