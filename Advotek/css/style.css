@@ -6147,5 +6147,15 @@ ul.tags li{
 #services .item-box {
     margin-bottom:10px;
 }
+/*tosa*/
+iframe {
+    max-width: 980px;
+}
 
+iframe:focus {
+    outline: none;
+}
+iframe[seamless] { 
+    display: block;
+}
 
