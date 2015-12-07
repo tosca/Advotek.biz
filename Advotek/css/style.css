@@ -288,6 +288,7 @@ a:focus{
   border-bottom-width: 0px;
   margin-bottom: 40px;
   position: relative;
+  
 }
 .section-title h1{
 	text-transform:uppercase;
@@ -296,6 +297,7 @@ a:focus{
     font-weight: normal;
     margin: 0 0 12px;
     padding: 14px 0;
+    color:#22205f;
 }
 
 .section-title h2{
@@ -305,6 +307,7 @@ a:focus{
     font-weight: normal;
     margin: 0 0 12px;
     padding: 14px 0;
+    color:#22205f;
 }
 .section-title.text-left h2,
 .section-title.text-left h1{

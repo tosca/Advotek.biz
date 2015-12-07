@@ -58,6 +58,10 @@ header .nav .open > a.highlighted,
 .navbar.navbar-bg-light .navbar-nav > li > a:hover {
     color:#808080; /*gray*/
 }
+
+.text-blue {
+color: #01236e; /*midnightblue*/
+}
 /* ============================
 
 
