@@ -279,6 +279,7 @@
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="HPpage.html" />
     <Content Include="img\advotekLogo03.png" />
+    <Content Include="img\advotekLogo04.jpg" />
     <Content Include="img\favicon.ico" />
     <Content Include="img\avatar.png" />
     <Content Include="img\blank.gif" />
@@ -366,6 +367,7 @@
     <Content Include="img\sections\slider\swosh3.png" />
     <Content Include="img\sections\slider\swosh4.png" />
     <Content Include="img\up.png" />
+    <Content Include="img\WBE.png" />
     <Content Include="js\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\bootstrapValidator.min.js" />
