@@ -276,6 +276,29 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="Global.asax" />
+    <Content Include="img\sections\about\advotekOffice-1.jpg" />
+    <Content Include="img\clients\advotekOffice.jpg" />
+    <Content Include="img\clients\client-01.jpg" />
+    <Content Include="img\clients\client-02.jpg" />
+    <Content Include="img\clients\client-03.jpg" />
+    <Content Include="img\clients\client-04.jpg" />
+    <Content Include="img\clients\client-05.jpg" />
+    <Content Include="img\clients\client-06.jpg" />
+    <Content Include="img\clients\client-07.jpg" />
+    <Content Include="img\clients\client-08.jpg" />
+    <Content Include="img\clients\client-09.jpg" />
+    <Content Include="img\clients\client-10.jpg" />
+    <Content Include="img\clients\client-11.jpg" />
+    <Content Include="img\clients\client-12.jpg" />
+    <Content Include="img\clients\client-13.jpg" />
+    <Content Include="img\clients\client-14.jpg" />
+    <Content Include="img\clients\client-15.jpg" />
+    <Content Include="img\clients\client-16.jpg" />
+    <Content Include="img\clients\client-17.jpg" />
+    <Content Include="img\clients\client-18.jpg" />
+    <Content Include="img\clients\client-19.jpg" />
+    <Content Include="img\clients\laneTechComputers.jpg" />
+    <Content Include="img\clients\laneTechLab.jpg" />
     <Content Include="img\sections\slider\business.png" />
     <Content Include="img\sections\slider\gov.png" />
     <Content Include="img\sections\slider\schools.png" />
@@ -542,7 +565,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="img\large\" />
-    <Folder Include="img\sections\clients\" />
     <Folder Include="img\sections\email\" />
     <Folder Include="img\sections\services\" />
     <Folder Include="img\sections\testimonials\" />
