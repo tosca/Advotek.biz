@@ -123,7 +123,9 @@ div.count-number:before,
     background-color: #01236e; /*midnightblue*/
 }
 
-
+.icons-bg-white i {
+color:#fff;
+}
 
 /* ============================
 

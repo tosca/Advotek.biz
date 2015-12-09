@@ -278,10 +278,8 @@ a:focus{
 .relative{
 	position: relative;
 }
-
 /* Title */
 .title{
-	font-family:Oswald,sans-serif;
     font-family:'Open Sans', sans-serif;
 }
 .section-title {
@@ -293,11 +291,11 @@ a:focus{
 .section-title h1{
 	text-transform:uppercase;
 	text-align:center;
-	font-size: 48px;	
+	font-size: 44px;	
     font-weight: normal;
     margin: 0 0 12px;
     padding: 14px 0;
-    color:#22205f;
+   /* color:#22205f;*/
 }
 
 .section-title h2{
@@ -307,7 +305,7 @@ a:focus{
     font-weight: normal;
     margin: 0 0 12px;
     padding: 14px 0;
-    color:#22205f;
+  /*  color:#22205f;*/
 }
 .section-title.text-left h2,
 .section-title.text-left h1{
@@ -324,9 +322,6 @@ a:focus{
   margin:-2px auto;
   position: absolute;
   width: 40px;
-}
-.section-title h2{
-	font-size:28px;
 }
 .section-title.text-left h2{
 	text-align:left;
