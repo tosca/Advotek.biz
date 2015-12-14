@@ -305,6 +305,9 @@
     <Content Include="img\clients\client-19.jpg" />
     <Content Include="img\clients\laneTechComputers.jpg" />
     <Content Include="img\clients\laneTechLab.jpg" />
+    <Content Include="img\sections\slider\advotek-business.png" />
+    <Content Include="img\sections\slider\advotek-government.png" />
+    <Content Include="img\sections\slider\advotek-school.png" />
     <Content Include="img\sections\slider\business.png" />
     <Content Include="img\sections\slider\gov.png" />
     <Content Include="img\sections\slider\schools.png" />
