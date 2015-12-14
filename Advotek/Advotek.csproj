@@ -276,6 +276,11 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="Global.asax" />
+    <Content Include="img\clients\client-20.jpg" />
+    <Content Include="img\clients\client-21.jpg" />
+    <Content Include="img\clients\client-22.jpg" />
+    <Content Include="img\clients\client-23.jpg" />
+    <Content Include="img\clients\client-24.jpg" />
     <Content Include="img\hp-logo-1.png" />
     <Content Include="img\sections\about\advotekOffice-1.jpg" />
     <Content Include="img\clients\advotekOffice.jpg" />
