@@ -309,6 +309,7 @@
     <Content Include="img\sections\slider\advotek-government.png" />
     <Content Include="img\sections\slider\advotek-school.png" />
     <Content Include="img\sections\slider\schools.png" />
+    <Content Include="img\sections\slider\screen-slider-1.jpg" />
     <Content Include="img\sections\slider\slide-img-1.jpg" />
     <Content Include="img\sections\slider\slide-img-1.png" />
     <Content Include="rs-plugin\assets\arrows.psd" />
