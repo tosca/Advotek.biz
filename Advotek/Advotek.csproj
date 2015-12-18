@@ -281,6 +281,12 @@
     <Content Include="img\clients\client-22.jpg" />
     <Content Include="img\clients\client-23.jpg" />
     <Content Include="img\clients\client-24.jpg" />
+    <Content Include="img\clients\client-25.jpg" />
+    <Content Include="img\clients\client-26.jpg" />
+    <Content Include="img\clients\client-27.jpg" />
+    <Content Include="img\clients\client-28.jpg" />
+    <Content Include="img\clients\client-29.jpg" />
+    <Content Include="img\clients\client-30.jpg" />
     <Content Include="img\hp-logo-1.png" />
     <Content Include="img\sections\about\advotekOffice-1.jpg" />
     <Content Include="img\clients\advotekOffice.jpg" />
@@ -295,7 +301,6 @@
     <Content Include="img\clients\client-09.jpg" />
     <Content Include="img\clients\client-10.jpg" />
     <Content Include="img\clients\client-11.jpg" />
-    <Content Include="img\clients\client-12.jpg" />
     <Content Include="img\clients\client-13.jpg" />
     <Content Include="img\clients\client-14.jpg" />
     <Content Include="img\clients\client-15.jpg" />
