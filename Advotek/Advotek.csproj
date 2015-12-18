@@ -259,9 +259,6 @@
     <Content Include="css\grid-rotator.css" />
     <Content Include="css\hover-dropdown-menu.css" />
     <Content Include="css\icons.css" />
-    <Content Include="css\owl\owl.carousel.css" />
-    <Content Include="css\owl\owl.theme.css" />
-    <Content Include="css\owl\owl.transitions.css" />
     <Content Include="css\photostack.css" />
     <Content Include="css\prettyPhoto.css" />
     <Content Include="css\responsive.css" />

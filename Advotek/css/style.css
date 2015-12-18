@@ -1305,8 +1305,8 @@ i.fa-1x{
 .image-bg .overlay-color,
 .overlay-color{
   height: 100%;
-  opacity: .85;
-  filter: alpha(opacity=20);
+  opacity: .80;
+  filter: alpha(opacity=80);
   width: 100%;
 }
 
