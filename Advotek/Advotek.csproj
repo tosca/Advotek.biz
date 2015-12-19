@@ -314,6 +314,7 @@
     <Content Include="img\sections\slider\screen-slider-1.jpg" />
     <Content Include="img\sections\slider\slide-img-1.jpg" />
     <Content Include="img\sections\slider\slide-img-1.png" />
+    <Content Include="img\sections\slider\swosh1.png" />
     <Content Include="rs-plugin\assets\arrows.psd" />
     <Content Include="rs-plugin\assets\bullets.psd" />
     <Content Include="rs-plugin\assets\small_arrows.psd" />
