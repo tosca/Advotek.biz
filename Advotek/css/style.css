@@ -396,6 +396,9 @@ section,
 -webkit-transition: background .2s linear, color .2s linear;
 transition:  background .2s linear, color .2s linear;
 }
+.btn-default {
+    color: #ffffff;
+}
 .btn-default:hover{
 color:#ffffff;
 }
@@ -3477,8 +3480,9 @@ div.count-number:before{
 
 /* Contact Form */
 .btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default.active[disabled], .btn-default.focus[disabled], .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover{
-	background-color:#f1f1f1;
+	background-color:#ccc;
 }
+
 .help-block {
     bottom: -23px;
     display: block;

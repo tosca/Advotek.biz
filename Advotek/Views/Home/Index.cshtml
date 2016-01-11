@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "ADVOTEK | Technology Services and Solutions ";
+    ViewBag.Title = "ADVOTEK | Technology Services and Solutions";
 }
 @section slider {
 <section class="slider">
@@ -603,62 +603,48 @@
 </section>
 <section id="contact" class="page-section hp-bg text-white">
     <div class="container">
-        <div class="section-title" data-animation="fadeInLeft">
-            <h2 class="title text-white">Contact</h2>
-        </div>
-        <img class="img-responsive img-center" src="~/img/clients/advotekOffice.jpg" />
         <div class="row">
-            <div class="col-sm-6 col-md-8">
-                <div class="row">
-                    <div class="col-sm-6 col-md-4 margin-20">
-                        <div>
-                            <h5 class="title"><i class="fa fa-map-marker"></i> Address</h5>
-                            Advotek, Incorporated<br />
-                            777 Oakmont Lane, Suite 50<br>
-                            Westmont, IL 60559
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 margin-20">
-                        <h5 class="title"><i class="fa fa-phone"></i> Phone</h5>
-                        <a href="tel:6309647762">630.964.7762</a>
-                        fax: 630.964.7858
-                    </div>
-                    <div class="col-sm-6 col-md-4 margin-20">
-                        <h5 class="title"><i class="fa fa-envelope"></i> Email Address</h5>
-                        <a href="mailto:zack@advotek.biz">contact@advotek.biz</a>
-                    </div>
-                </div>
-                <hr>
+            <div class="section-title" data-animation="fadeInLeft">
+                <h2 class="title text-white">Contact</h2>
             </div>
-            <div class="col-md-4">
-                <!--  <h3 class="title">Contact Form</h3>
-                <p class="form-message" style="display: none;"></p>
-                <div class="contact-form">
-                   Form Begins
-                    <form role="form" name="contactform" id="contactform" method="post" action="php/contact-form.php">
-
-                        <div class="input-text form-group">
-                            <input type="text" name="contact_name" class="input-name form-control" placeholder="Full Name" />
-                        </div>
-                       <div class="input-email form-group">
-                            <input type="email" name="contact_email" class="input-email form-control" placeholder="Email" />
-                        </div>
-
-                        <div class="input-email form-group">
-                            <input type="text" name="contact_phone" class="input-phone form-control" placeholder="Phone" />
-                        </div>
-
-                        <div class="textarea-message form-group">
-                            <textarea name="contact_message" class="textarea-message form-control" placeholder="Message" rows="2"></textarea>
-                        </div>
-
-                        <button class="btn btn-default" type="submit">Send Now <i class="icon-paper-plane"></i></button>
+            <img class="img-responsive img-center" src="~/img/clients/advotekOffice.jpg" />
+            <hr />
+        </div> 
+        <div class="row">
+            <div class="col-sm-4">
+                <div>
+                    <h5 class="title"><i class="fa fa-map-marker"></i> Address</h5>
+                    Advotek, Incorporated<br />
+                    777 Oakmont Lane, Suite 50<br />
+                    Westmont, IL 60559
                 </div>
-                </form>-->
-
+            </div>
+            <div class="col-sm-4">
+                <h5 class="title"><i class="fa fa-phone"></i> Phone</h5>
+                <a href="tel:6309647762">630.964.7762</a><br />
+                fax: 630.964.7858<br /><br />
+                <h5 class="title"><i class="fa fa-envelope"></i> Email Address</h5>
+                <a href="mailto:paula@advotek.biz">contact@advotek.biz</a>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="title"><i class="fa fa-comment-o"></i>Contact</h5>
+                <div class="contact-form">
+                    <form role="form" name="ContactForm" id="contactform" method="post" action="/Home/Contact">
+                        <div class="input-text form-group">
+                            <input type="text" name="contact_name" class="input-name form-control white" placeholder="Name" />
+                        </div>
+                        <div class="input-email form-group">
+                            <input type="email" name="contact_email" class="input-email form-control white" placeholder="Email" />
+                        </div>
+                        <div class="textarea-message form-group">
+                            <textarea name="contact_message" class="textarea-message form-control white" placeholder="Message" rows="2"></textarea>
+                        </div>
+                        <button class="btn btn-default" type="submit">Send Message <i class="icon-paper-plane white"></i></button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
+   </div>            
 </section>
 
     
