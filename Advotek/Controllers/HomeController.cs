@@ -116,9 +116,8 @@ namespace Advotek.Controllers
 
             var Name = contact.Name;
             var contactEmail = contact.ContactEmail;
-            var contactPhone = contact.ContactPhone;
             var contactMessage = contact.ContactMessage;
-            SendEmail(Name, contactEmail, contactPhone, contactMessage);
+            SendEmail(Name, contactEmail, contactMessage);
             return RedirectToAction("Index");
         }
 
@@ -131,7 +130,7 @@ namespace Advotek.Controllers
         }
 
 
-        public void SendEmail(string Name, string contactEmail, string contactPhone, string contactMessage)
+        public void SendEmail(string Name, string contactEmail, string contactMessage)
         {
             string mailgunKey = System.Configuration.ConfigurationManager.AppSettings["MAILGUN_API_KEY"];
             if (String.IsNullOrEmpty(mailgunKey))
@@ -154,7 +153,6 @@ namespace Advotek.Controllers
             request.AddParameter("subject", "Advotek - Contact Request");
             request.AddParameter("text", "Name : " + Name);
             request.AddParameter("text", "ContactEmail : " + contactEmail);
-            request.AddParameter("text", "ContactPhone : " + contactPhone);
             request.AddParameter("text", "ContactMessage : " + contactMessage);
             request.Method = Method.POST;
             var result = client.Execute(request);
@@ -169,7 +167,6 @@ namespace Advotek.Controllers
     {
         public string Name { get; set; }
         public string ContactEmail { get; set; }
-        public string ContactPhone { get; set; }
         public string ContactMessage { get; set; }
 
     }

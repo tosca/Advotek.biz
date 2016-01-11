@@ -629,18 +629,33 @@
             <div class="col-sm-4">
                 <h5 class="title"><i class="fa fa-comment-o"></i>Contact</h5>
                 <div class="contact-form">
-                    <form role="form" name="ContactForm" id="contactform" method="post" action="/Home/Contact">
+                    <form role="form" name="contactform" id="ContactForm" method="post" action="/Home/Contact">
                         <div class="input-text form-group">
-                            <input type="text" name="contact_name" class="input-name form-control white" placeholder="Name" />
+                            <input type="text" id="Name" name="Name" class="input-name form-control white" placeholder="Name" />
+                        </div>
+                        <div class="input-text form-group">
+                            <input type="email" id="ContactEmail" name="ContactEmail" class="input-email form-control" placeholder="Your Email" />
+                        </div>
+                        <div class="input-text form-group">
+                            <textarea id="ContactMessage" name="ContactMessage" class="input-text form-control" maxlength="500" wrap="hard" placeholder="Message"></textarea>
+                        </div>
+                        <div class="input-text form-group">
+                            <input type="submit" class="btn btn-default btn-block text-right" value="Send Message" />
+                        </div>
+                    </form>
+
+                  <!-- <form role="form" name="ContactForm" id="contactform" method="post" action="/Home/Contact">
+                        <div class="input-text form-group">
+                            <input type="text" name="Name" class="input-name form-control white" placeholder="Name" />
                         </div>
                         <div class="input-email form-group">
-                            <input type="email" name="contact_email" class="input-email form-control white" placeholder="Email" />
+                            <input type="email" name="ContactEmail" class="input-email form-control white" placeholder="Email" />
                         </div>
                         <div class="textarea-message form-group">
-                            <textarea name="contact_message" class="textarea-message form-control white" placeholder="Message" rows="2"></textarea>
+                            <input name="ContactMessage" class="textarea-message form-control white" placeholder="Message" rows="2"></input>
                         </div>
                         <button class="btn btn-default" type="submit">Send Message <i class="icon-paper-plane white"></i></button>
-                    </form>
+                    </form>--> 
                 </div>
             </div>
         </div>

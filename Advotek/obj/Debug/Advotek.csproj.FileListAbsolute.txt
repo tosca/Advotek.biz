@@ -82,3 +82,5 @@ C:\Root\Projects\Advotek.biz\Advotek\bin\zh-Hant\System.Spatial.resources.dll
 C:\Root\Projects\Advotek.biz\Advotek\obj\Debug\Advotek.csprojResolveAssemblyReference.cache
 C:\Root\Projects\Advotek.biz\Advotek\obj\Debug\Advotek.dll
 C:\Root\Projects\Advotek.biz\Advotek\obj\Debug\Advotek.pdb
+C:\Root\Projects\Advotek.biz\Advotek\bin\RestSharp.dll
+C:\Root\Projects\Advotek.biz\Advotek\bin\RestSharp.xml
