@@ -35,11 +35,6 @@ namespace Advotek.Controllers
             return View();
         }
 
-       // public ActionResult Contact()
-       // {
-       //     return View();
-       // }
-
         public ActionResult HPbusinessUpgradeTool()
         {
             return View();

@@ -218,3 +218,7 @@ pip-log.txt
 *.pdb
 Advotek/obj/Debug/Advotek.dll
 *.suo
+*.dll
+Advotek/bin/Advotek.pdb
+*.cache
+Advotek/bin/Advotek.dll
