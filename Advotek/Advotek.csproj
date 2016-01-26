@@ -289,6 +289,7 @@
     <Content Include="img\clients\client-29.jpg" />
     <Content Include="img\clients\client-30.jpg" />
     <Content Include="img\hp-logo-1.png" />
+    <Content Include="img\sections\about\280x313.jpg" />
     <Content Include="img\sections\about\advotekOffice-1.jpg" />
     <Content Include="img\clients\advotekOffice.jpg" />
     <Content Include="img\clients\client-01.jpg" />
@@ -315,6 +316,7 @@
     <Content Include="img\sections\slider\advotek-business.png" />
     <Content Include="img\sections\slider\advotek-government.png" />
     <Content Include="img\sections\slider\advotek-school.png" />
+    <Content Include="img\sections\slider\rs-slider2-img.png" />
     <Content Include="img\sections\slider\screen-slider-1.jpg" />
     <Content Include="img\sections\slider\screen-slider-2.jpg" />
     <Content Include="img\sections\slider\screen-slider-3.jpg" />
@@ -390,16 +392,6 @@
     <Content Include="img\sections\grid\9.jpg" />
     <Content Include="img\sections\slider\arrow-left.png" />
     <Content Include="img\sections\slider\arrow-right.png" />
-    <Content Include="img\sections\slider\hosting-slide3.jpg" />
-    <Content Include="img\sections\slider\rs-slider1-bg.jpg" />
-    <Content Include="img\sections\slider\rs-slider2-bg.jpg" />
-    <Content Include="img\sections\slider\rs-slider2-four.png" />
-    <Content Include="img\sections\slider\rs-slider2-img.png" />
-    <Content Include="img\sections\slider\rs-slider2-one.png" />
-    <Content Include="img\sections\slider\rs-slider2-three.png" />
-    <Content Include="img\sections\slider\rs-slider2-two.png" />
-    <Content Include="img\sections\slider\swosh-logos.png" />
-    <Content Include="img\sections\slider\swosh3.png" />
     <Content Include="img\sections\slider\swosh4.png" />
     <Content Include="img\up.png" />
     <Content Include="img\WBE.png" />

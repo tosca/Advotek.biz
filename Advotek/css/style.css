@@ -76,6 +76,7 @@
 	- Newsletter
 	- Sticky Sidebar - NEW 
 5. PAGES
+    - Services
 	- Service Time-line	
 	- Time Liner Blog & Resume
 	- Timeline Left side Bar
@@ -3321,6 +3322,9 @@ div.count-number:before{
 	margin:0;
 	font-size:42px;
 	text-transform:capitalize;
+}
+#services h4 {
+    text-transform: uppercase;
 }
 #page .breadcrumb.white a{
 	 color: #ffffff;
