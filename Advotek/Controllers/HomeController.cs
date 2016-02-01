@@ -144,7 +144,7 @@ namespace Advotek.Controllers
                                  ParameterType.UrlSegment);
             request.Resource = "{domain}/messages";
             request.AddParameter("from", "Advotek.biz - inquiry <mailgun@mailgun.org>");
-            request.AddParameter("to", "tosca.ragnini@gmail.com, paula@advotek.biz");
+            request.AddParameter("to", "tosca.ragnini@gmail.com");
             request.AddParameter("subject", "Advotek - Contact Request");
             request.AddParameter("text", "Name : " + Name);
             request.AddParameter("text", "ContactEmail : " + contactEmail);
