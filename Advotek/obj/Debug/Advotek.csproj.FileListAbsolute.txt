@@ -84,3 +84,9 @@ C:\Root\Projects\Advotek.biz\Advotek\obj\Debug\Advotek.dll
 C:\Root\Projects\Advotek.biz\Advotek\obj\Debug\Advotek.pdb
 C:\Root\Projects\Advotek.biz\Advotek\bin\RestSharp.dll
 C:\Root\Projects\Advotek.biz\Advotek\bin\RestSharp.xml
+C:\Root\Projects\Advotek.biz\Advotek\bin\System.Net.Http.Formatting.dll
+C:\Root\Projects\Advotek.biz\Advotek\bin\System.Web.Http.dll
+C:\Root\Projects\Advotek.biz\Advotek\bin\System.Web.Http.WebHost.dll
+C:\Root\Projects\Advotek.biz\Advotek\bin\System.Net.Http.Formatting.xml
+C:\Root\Projects\Advotek.biz\Advotek\bin\System.Web.Http.xml
+C:\Root\Projects\Advotek.biz\Advotek\bin\System.Web.Http.WebHost.xml

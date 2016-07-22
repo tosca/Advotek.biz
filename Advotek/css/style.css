@@ -248,7 +248,7 @@ a {
   color: #f7f7f7;
 }
 a:visited {
-  color: #555555;
+  color: #1f2d5c;
   text-decoration:none;
 }
 a:focus{
@@ -1942,6 +1942,7 @@ p.tp-caption.button-block a{
 .rs-slider-full  .tp-rightarrow{
 	right:-10px!important;
 }
+/*.tp-banner {visibility: hidden}*/
 
 /* Bootstrap Carousel */
 .carousel-control {

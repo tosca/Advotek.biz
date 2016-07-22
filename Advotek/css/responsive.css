@@ -536,7 +536,7 @@
 	}
 	
 	header .navbar-form{
-		margin:none;
+		margin:0;
 	}
 	.search-dropdown .dropdown-menu li{		
 		padding:0px 10px;
@@ -562,39 +562,7 @@
 	.grid-col-5 .grid-sizer {
 		width:50%;
 	}
-	/* Timeline Blog / Resume */
-	.blog.timeliner .timeline-icon {
-		left: 0;
-		margin: 22px 0 0;
-	}
-	.blog.timeliner .timeline-meta {
-		left: 0;
-		margin: 0 0 5px;
-		position: relative;
-		right: 0;
-		text-align: left;
-	}
-	.blog.timeliner li,
-	.blog.timeliner > li.timeline-inverted{
-		margin: 0;
-		padding: 0 0 30px 100px;
-		width: 100%;
-		left:0;
-	}
-	.blog.timeliner  >li.timeline-inverted .timeline-panel:before,
-	.blog.timeliner  >li .timeline-panel:before{
-	  border: 15px solid transparent;
-	  border-right-color: #ccc;
-	  left: -30px;
-	  right: auto;
-	}
-	.blog.timeliner  >li.timeline-inverted .timeline-panel:after,
-	.blog.timeliner  >li .timeline-panel:after 	{
-	  border: 14px solid transparent;
-	  border-right-color: #fff;
-	  left: -28px;
-	  right: auto;
-	}
+	
 	.owl-carousel .col-sm-1,
 	.owl-carousel .col-sm-2,
 	.owl-carousel .col-sm-3,
@@ -636,10 +604,7 @@
 	.grid-col-5 .grid-sizer {
 		width:100%;
 	}
-	/* TImeline */
-	.blog.timeliner > li .timeline-panel{
-		padding:20px;
-	}
+	
 	.top-up .nav-tabs > li{
 		display:block;
 		width:100%;
